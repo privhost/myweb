@@ -8,18 +8,32 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
-        <link href="./afegir.css" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet">
         <script src="index.js"></script>
 
-        <title>Com utilitzar</title>
+        <title>Buscar</title>
         <link rel="icon" type="image/x-icon" href="./assets/favicon.jpg">
     </head>
     <body>
         <header>
-            <a href="/index">Buscar</a>
-            <a href="/afegir">Afegir</a>
-            <a href="/use" class="current">Com utilitzar</a>
-        </header>
+            <a href="./index.html" class="current">Buscar</a>
+            <a href="./afegir.html">Afegir</a>
+            <a href="./use.html">Com utilitzar</a>
 
+        </header>
+        <main>
+            <div class="search">
+                <p class="buscarLlibre">Llibre per buscar:</p>
+                <input autofocus class="form-control" type="text" placeholder="Titol del llibre" aria-label="default input example" id="bookTitle">
+
+                <p>Localització:</p>
+                <div class="card">
+                    <div class="card-body">Aqui sortira la localització del llibre introduit </div>
+                  </div>
+            </div>
+            <div class="find">
+               <img src="http://books.google.com/books/content?id=UQWGAbeyBw0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" alt="Portada del llibre">
+            </div>
+        </main>
     </body>
 </html>
